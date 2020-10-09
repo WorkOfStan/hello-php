@@ -1,0 +1,23 @@
+{
+    "name": "workofstan/hello-php",
+    "description": "Trivial repo to test composer settings on server",
+    "type": "project",
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "tracy/tracy": "^2.4.10"
+    },
+    "homepage": "https://github.com/WorkOfStan/hello-php",
+    "support": {
+        "issues": "https://github.com/WorkOfStan/hello-php/issues",
+        "source": "https://github.com/WorkOfStan/hello-php"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stanislav Rejthar",
+            "email": "rejthar@stanislavrejthar.com",
+            "homepage": "http://www.stanislavrejthar.com/"
+        }
+    ],
+    "minimum-stability": "stable"
+}

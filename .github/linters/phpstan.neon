@@ -1,0 +1,9 @@
+parameters:
+    level: max
+    ignoreErrors:
+      - 
+        message: '#Access to constant [A-Z]+ on an unknown class Tracy\\Debugger.#'
+        path: ../../index.php
+      - 
+        message: '#Call to static method enable\(\) on an unknown class Tracy\\Debugger.#'
+        path: ../../index.php
