@@ -26,3 +26,4 @@ echo "Hello world!";
 if ($developmentEnvironment) {
     echo "<br>I am PHP " . PHP_VERSION;
 }
+echo "<br>Lorem ipsum";
