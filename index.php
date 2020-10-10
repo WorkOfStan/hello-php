@@ -18,7 +18,7 @@ $developmentEnvironment = (
         $_SERVER['REMOTE_ADDR'],
         array('::1', '127.0.0.1')
     ) || in_array($_SERVER['REMOTE_ADDR'], $debugIpArray)
-);
+    );
 
 Debugger::enable($developmentEnvironment ? Debugger::DEVELOPMENT : Debugger::PRODUCTION, __DIR__ . '/log');
 
@@ -27,3 +27,4 @@ if ($developmentEnvironment) {
     echo "<br>I am PHP " . PHP_VERSION;
 }
 echo "<br>Lorem ipsum";
+Debugger::log(date('c') . " " . $_SERVER['REMOTE_ADDR'] . PHP_EOL);
