@@ -5,5 +5,5 @@ parameters:
         message: '#Access to constant [A-Z]+ on an unknown class Tracy\\Debugger.#'
         path: ../../index.php
       -
-        message: '#Call to static method enable\(\) on an unknown class Tracy\\Debugger.#'
+        message: '#Call to static method [a-z]+\(\) on an unknown class Tracy\\Debugger.#'
         path: ../../index.php
